@@ -9,7 +9,6 @@ CREATE TABLE products(
   department_name VARCHAR(100) NOT NULL,
   price DECIMAL(10, 2) NOT NULL,
   stock_quantity INT NOT NULL,
-  product_sales DECIMAL(11,2),
   PRIMARY KEY (item_id)
 );
 select * from products;
